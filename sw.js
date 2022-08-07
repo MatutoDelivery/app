@@ -10,14 +10,8 @@ const NEXT_LAUNCH_MOVIE_DETAILS_TAG = 'next-launch-movie-details';
 const CACHE_NAME = 'my-movie-list-v3';
 
 const INITIAL_CACHED_RESOURCES = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/favicon.svg',
-    '/missing-image.jpg',
-    '/script.js',
-    '/localforage-1.10.0.min.js',
-    '/offline-request-response.json',
+    '/app/index.html',
+    
 ];
 
 self.addEventListener('install', event => {
@@ -48,7 +42,7 @@ async function searchForMovies(query, dontTryLater) {
     if (error && !dontTryLater) {
         requestBackgroundSyncForSearchQuery(query);
         const cache = await caches.open(CACHE_NAME);
-        response = await cache.match('/offline-request-response.json');
+        response = await cache.match('/app/offline-request-response.json');
     }
 
     return response;
