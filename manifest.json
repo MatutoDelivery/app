@@ -1,15 +1,45 @@
 {
-    "short_name": "Matuto Delivery",
-    "name": "Matuto Delivery",
-    "icons": [{
-            "src": "https://s3.amazonaws.com/appforest_uf/f1658935214327x882464623936291200/android-launchericon-512-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
+    "name":"Matuto Delivery",
+    "short_name":"Matuto Delivery",
+    "description":"O app mais Arretado!",
+    "display":"standalone",
+    "start_url":".",
+    "background_color":"#fd4c3a",    
+    "theme_color":"#fd4c3a",
+    "icons":[
+        {
+            "src":"https://forum.bubble.io/uploads/default/optimized/3X/3/8/380a9733c7bc6f7d4af7fb170d0c764177ab1e66_2_512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"},
+        
+        {
+            "src":"https://forum.bubble.io/uploads/default/optimized/3X/3/8/380a9733c7bc6f7d4af7fb170d0c764177ab1e66_2_512x512.png",
+            "sizes":"512x512",
+            "type":"image/png",
+            
+            "purpose":"maskable"}],
+    "share_target":{"action":"/home",
+                    "method":"GET",
+                    "enctype":"application/x-www-form-urlencoded",
+                    "params":{
+                        "title":"title","text":"body"}},
+    "shortcuts":[
+        {
+        "name":"Create a new Topic",
+            "short_name":"New Topic",
+            "url":"/new-topic",
+            "icons":[
+                {
+                "src":"https://forum.bubble.io/svg-sprite/forum.bubble.io/icon/242424/plus.svg",
+                      "sizes":"131x150",
+                      "type":"image/svg"
+                }
+            ]
         }
-    ],
-    "start_url": "https://matuto-delivery-beta.bubbleapps.io/",
-    "background_color": "#FD4C3A",
-    "display": "standalone",
-    "scope": "https://matuto-delivery-beta.bubbleapps.io/?source=pwa",
-    "theme_color": "#FD4C3A"
+        
+        
+       
+        
+        
+    ]
 }
