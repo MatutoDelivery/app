@@ -1,20 +1,20 @@
 {
     "name":"Matuto Delivvery",
     "short_name":"Matuto Delivvery",
-    "start_url":"https://matuto-delivery-beta.bubbleapps.io/index/",
+    "start_url":"https://matuto-delivery-beta.bubbleapps.io/index",
     "display":"standalone",
     "background_color":"#fd4c3a",
     "theme_color":"#fd4c3a",
-    "scope": "https://matuto-delivery-beta.bubbleapps.io/index/",
+    "scope": "https://matuto-delivery-beta.bubbleapps.io/index",
     "description":"O app mais Arretado!",
     "icons":[
     {
-    "src":"app/icon-192x192.png",                     
+    "src":"https://s3.amazonaws.com/appforest_uf/f1659900942701x880488334249021700/Logo_Oficial_Matuto_Delivery_Ic.png",                     
     "sizes":"192x192",
     "type":"image/png"
     },
     {
-    "src":"app/icon-512x512.png",
+    "src":"https://s3.amazonaws.com/appforest_uf/f1659900942701x880488334249021700/Logo_Oficial_Matuto_Delivery_Ic.png",
     "sizes":"512x512",
     "type":"image/png"
     }
