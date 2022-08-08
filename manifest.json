@@ -1,7 +1,7 @@
 {
     "name":"Matuto Delivvery",
     "short_name":"Matuto Delivvery",
-    "start_url":"https://matuto-delivery-beta.bubbleapps.io/",
+    "start_url":"https://matuto-delivery-beta.bubbleapps.io/index/",
     "display":"standalone",
     "background_color":"#fd4c3a",
     "theme_color":"#fd4c3a",
