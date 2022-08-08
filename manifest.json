@@ -7,9 +7,9 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://matuto-delivery-beta.bubbleapps.io/?source=pwa",
+    "start_url": "https://matuto-delivery-beta.bubbleapps.io/",
     "background_color": "#FD4C3A",
     "display": "standalone",
-    "scope": "https://matuto-delivery-beta.bubbleapps.io/",
+    "scope": "https://matuto-delivery-beta.bubbleapps.io/?source=pwa",
     "theme_color": "#FD4C3A"
 }
