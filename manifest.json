@@ -5,7 +5,7 @@
     "display":"standalone",
     "background_color":"#fd4c3a",
     "theme_color":"#fd4c3a",
-    "scope": ".",
+    "scope": "https://matuto-delivery-beta.bubbleapps.io/index/",
     "description":"O app mais Arretado!",
     "icons":[
     {
