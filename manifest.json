@@ -1,28 +1,22 @@
 {
-    "name":"Matuto Delivery",
-    "short_name":"Matuto Delivery",
-    "description":"O app mais Arretado!",
-    "display":"standalone",
+    "name":"Matuto Delivvery",
+    "short_name":"Matuto Delivvery",
     "start_url":"https://matuto-delivery-beta.bubbleapps.io/",
-    "background_color":"#fd4c3a",    
+    "display":"standalone",
+    "background_color":"#fd4c3a",
     "theme_color":"#fd4c3a",
+    "scope": ".",
+    "description":"O app mais Arretado!",
     "icons":[
-        {
-            "src":"https://forum.bubble.io/uploads/default/optimized/3X/3/8/380a9733c7bc6f7d4af7fb170d0c764177ab1e66_2_512x512.png",
-            "sizes":"512x512",
-            "type":"image/png"},
-        
-        {
-            "src":"https://forum.bubble.io/uploads/default/optimized/3X/3/8/380a9733c7bc6f7d4af7fb170d0c764177ab1e66_2_512x512.png",
-            "sizes":"512x512",
-            "type":"image/png",
-            
-            "purpose":"maskable"}],
-    "share_target":{"action":"/home",
-                    "method":"GET",
-                    "enctype":"application/x-www-form-urlencoded",
-                    "params":{
-                        "title":"title","text":"body"}
-                   }
-
+    {
+    "src":"app/icon-192x192.png",                     
+    "sizes":"192x192",
+    "type":"image/png"
+    },
+    {
+    "src":"app/icon-512x512.png",
+    "sizes":"512x512",
+    "type":"image/png"
+    }
+  ]
 }
