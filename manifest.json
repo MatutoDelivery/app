@@ -1,20 +1,15 @@
 {
-    "lang": "pt-br",
+    "short_name": "Matuto Delivery",
     "name": "Matuto Delivery",
-    "short_name": "MatutoDelivery",
-    "description": "O app mais Arretado!",
-    "start_url": "/",
-    "scope": "/",
-    "display": "standalone",
-    "theme_color": "#fd4c3a",
-    "background_color": "#fd4c3a",
-    "orientation": "any",
-    "icons": [
-        {
+    "icons": [{
             "src": "https://s3.amazonaws.com/appforest_uf/f1658935214327x882464623936291200/android-launchericon-512-512.png",
-            "sizes": "512x512"
-        },
-       
-       
-    ]
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#FD4C3A",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FD4C3A"
 }
