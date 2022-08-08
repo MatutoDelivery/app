@@ -3,7 +3,7 @@
     "short_name":"Matuto Delivery",
     "description":"O app mais Arretado!",
     "display":"standalone",
-    "start_url":".",
+    "start_url":"https://matuto-delivery-beta.bubbleapps.io/",
     "background_color":"#fd4c3a",    
     "theme_color":"#fd4c3a",
     "icons":[
@@ -22,6 +22,7 @@
                     "method":"GET",
                     "enctype":"application/x-www-form-urlencoded",
                     "params":{
-                        "title":"title","text":"body"}},
+                        "title":"title","text":"body"}
+                   }
 
 }
