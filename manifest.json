@@ -1,11 +1,11 @@
 {
     "name":"Matuto Delivvery",
     "short_name":"Matuto Delivvery",
-    "start_url":"https://matuto-delivery-beta.bubbleapps.io/index",
+    "start_url":"index.html",
     "display":"standalone",
     "background_color":"#fd4c3a",
     "theme_color":"#fd4c3a",
-    "scope": "https://matuto-delivery-beta.bubbleapps.io/index",
+    "scope": ".",
     "description":"O app mais Arretado!",
     "icons":[
     {
