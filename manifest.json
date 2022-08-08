@@ -23,23 +23,5 @@
                     "enctype":"application/x-www-form-urlencoded",
                     "params":{
                         "title":"title","text":"body"}},
-    "shortcuts":[
-        {
-        "name":"Create a new Topic",
-            "short_name":"New Topic",
-            "url":"/new-topic",
-            "icons":[
-                {
-                "src":"https://forum.bubble.io/svg-sprite/forum.bubble.io/icon/242424/plus.svg",
-                      "sizes":"131x150",
-                      "type":"image/svg"
-                }
-            ]
-        }
-        
-        
-       
-        
-        
-    ]
+
 }
