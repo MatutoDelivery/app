@@ -1,4 +1,4 @@
-var staticCacheName = "Matuto Delivery";
+var staticCacheName = "pwa";
  
 self.addEventListener("install", function (e) {
   e.waitUntil(
