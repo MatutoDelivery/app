@@ -7,7 +7,6 @@ this.addEventListener('install', event => {
         caches.open(staticCacheName)
         .then(cache => {
             return cache.addAll([
-                '/',
                 'https://matuto-delivery-beta.bubbleapps.io/',
                 'https://matutodelivery.github.io/app/manifest.json',
 
@@ -35,7 +34,7 @@ this.addEventListener('fetch', event => {
             return response || fetch(event.request)
         })
         .catch(() => {
-            return caches.match('https://matuto-delivery-beta.bubbleapps.io/')
+            return caches.match('/')
         })
     )
 })
