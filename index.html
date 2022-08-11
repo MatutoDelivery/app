@@ -10,13 +10,34 @@
   <!-- Title -->
   <title>PWA Tutorial</title>
  
-  <!-- Meta Tags required for
-       Progressive Web App -->
-  <meta name="apple-mobile-web-app-status-bar"content="#aa7700">
-  <meta name="theme-color"content="black">
+  
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Matuto Delivery">
+<meta name="apple-mobile-web-app-title" content="Matuto Delivery">
+<meta name="theme-color" content="#fd4c3a">
+<meta name="msapplication-navbutton-color" content="#fd4c3a">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="https://matuto-delivery-beta.bubbleapps.io/version-test/home">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="512x512" href="/asset/icon/xxxxhdp.png">
+<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="https://matutodelivery.github.io/app/asset/icon/xxxxhdp.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://matutodelivery.github.io/app/asset/icon/xxxhdpi.png">
+<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="https://matutodelivery.github.io/app/asset/icon/xxxhdpi.png">
+<link rel="icon" type="image/png" sizes="144x144" href="https://matutodelivery.github.io/app/asset/icon/xxhdpi.png">
+<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="https://matutodelivery.github.io/app/asset/icon/xxhdpi.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://matutodelivery.github.io/app/asset/icon/xhdpi.png">
+<link rel="apple-touch-icon" type="image/png" sizes="96x96" href="https://matutodelivery.github.io/app/asset/icon/xhdpi.png">
+<link rel="icon" type="image/png" sizes="72x72" href="https://matutodelivery.github.io/app/asset/icon/hdpi.png">
+<link rel="apple-touch-icon" type="image/png" sizes="72x72" href="https://matutodelivery.github.io/app/asset/icon/hdpi.png">
+<link rel="icon" type="image/png" sizes="48x48" href="https://matutodelivery.github.io/app/asset/icon/mdpi.png">
+<link rel="apple-touch-icon" type="image/png" sizes="48x48" href="https://matutodelivery.github.io/app/asset/icon/mdpi.png">
+<link rel="icon" type="image/png" sizes="36x36" href="https://matutodelivery.github.io/app/asset/icon/ldpi.png">
+<link rel="apple-touch-icon" type="image/png" sizes="36x36" href="https://matutodelivery.github.io/app/asset/icon/ldpi.png">
  
-  <!-- Manifest File link -->
-  <link rel="manifest" href="manifest.json">
+ 
+  <link rel="manifest" href="/manifest.json">
 </head>
  
 <body>
@@ -29,24 +50,18 @@
   </p>
  
  
-  <script>
-    window.addEventListener('load', () => {
-      registerSW();
+ <script>
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
     });
- 
-    // Register the Service Worker
-    async function registerSW() {
-      if ('serviceWorker' in navigator) {
-        try {
-          await navigator
-                .serviceWorker
-                .register('serviceworker.js');
-        }
-        catch (e) {
-          console.log('SW registration failed');
-        }
-      }
-    }
- </script>
+  });
+}
+</script>
 </body>
 </html>
