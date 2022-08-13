@@ -126,12 +126,10 @@ a:hover {
 .link {
   position: relative;
   margin-top: 30px;
-  margin-left: 10px;
-  text-align: left;
-  padding: 20px;
-  padding-left: 70px;
+  text-align: center;
   display: block;
   font-size: 0.8em;
+  border-radius: 50px;
 }
 
 .link h2 {
