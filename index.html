@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>Gráfica RCARVALHO</title>
     <meta name="description" content="Copiadora e Gráfica" />
+    <link rel="manifest" href="/manifest.json">
     <script src="https://kit.fontawesome.com/9b3bbb804d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -36,4 +37,17 @@
       </div>
     </div>
   </body>
+  <script>
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
 </html>
