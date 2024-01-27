@@ -161,16 +161,13 @@ body.dark-theme {
 }
 
 .profile__perfil {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(180deg, 
-              hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
-              hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile__perfil img {
@@ -178,7 +175,7 @@ body.dark-theme {
 }
 
 .profile__border {
-  border: 3px solid var(--first-color);
+  border: 3px solid hsl(0deg 0% 95.28%);
   justify-self: center;
   width: 115px;
   height: 115px;
@@ -255,12 +252,12 @@ body.dark-theme {
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  background-color: var(--first-color);
+  background-color: hsl(0deg 0% 58.11%);
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: .5rem;
   transition: .3s;
-  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+  
 }
 
 .button i {
@@ -268,7 +265,7 @@ body.dark-theme {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: hsl(0deg 0% 41.73%);
 }
 
 .button__small {
