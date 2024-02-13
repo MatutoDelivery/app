@@ -59,6 +59,14 @@ body {
   transition: .3s; /* For animation dark mode */
 }
 
+#MolduraIframe{
+// Defina as resoluções para adaptar o tamanho conforme cada caso
+@media (max-width:100px){
+  
+// Defina o tamanho que o objeto terá com tal resolução
+}
+}
+
 h1, h2, h3 {
   color: var(--title-color);
   font-weight: 600;
