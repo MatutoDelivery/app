@@ -252,7 +252,7 @@ body.dark-theme {
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  background-color: hsl(0deg 0% 58.11%);
+  background-color: #171f26;
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: .5rem;
