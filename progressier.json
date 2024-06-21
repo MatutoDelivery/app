@@ -1,0 +1,91 @@
+{
+"dir":"auto",
+"name":"RCARVALHO",
+"short_name":"RCARVALHO",
+"background_color":"#fd4c3a",
+"theme_color":"#fd4c3a",
+"display":"standalone",
+"orientation":"portrait",
+"start_url":"https://rcarvalhografica.com.br/?utm_source=homescreen&utm_medium=shortcut",
+"scope":"https://rcarvalhografica.com.br/",
+"id":"https://rcarvalhografica.com.br/NAyocZzzEwe6eehD3m3",
+"prefer_related_applications":false,
+"related_applications":[],
+
+  
+"screenshots": [
+        {
+            "src": "https://abs.twimg.com/responsive-web/client-web/twitter-lite-data-saver-marketing.6805986a.png",
+            "sizes": "586x1041",
+            "type": "image/png"
+        },
+        {
+            "src": "https://abs.twimg.com/responsive-web/client-web/twitter-lite-explore-marketing.fd45b02a.png",
+            "sizes": "586x1041",
+            "type": "image/png"
+        },
+        {
+            "src": "https://abs.twimg.com/responsive-web/client-web/twitter-lite-timeline-marketing.befcdb4a.png",
+            "sizes": "586x1041",
+            "type": "image/png"
+        }
+    ],
+
+  
+"icons":[
+{
+"src":"https://rcarvalhografica.github.io/matuto/cliente/img/maskable_icon_x512.png",
+"sizes":"512x512",
+"type":"image/png",
+"purpose":"any"
+},
+
+{
+"src":"https://rcarvalhografica.github.io/matuto/cliente/img/maskable_icon_x512.png",
+"sizes":"512x512",
+"type":"image/png",
+"purpose":"maskable"
+},
+
+{
+"src":"https://rcarvalhografica.github.io/matuto/cliente/img/maskable_icon_x192.png",
+"sizes":"192x192",
+"type":"image/png",
+"purpose":"any"
+},
+  
+{
+"src":"https://rcarvalhografica.github.io/matuto/cliente/img/maskable_icon_x192.png",
+"sizes":"192x192",
+"type":"image/png",
+"purpose":"maskable"
+},
+
+{
+"src":"https://rcarvalhografica.github.io/matuto/cliente/img/maskable_icon_x96.png",
+"sizes":"96x96",
+"type":"image/png",
+"purpose":"any"
+},
+
+{
+"src":"https://rcarvalhografica.github.io/matuto/cliente/img/maskable_icon_x96.png",
+"sizes":"96x96",
+"type":"image/png",
+"purpose":"maskable"
+}
+  
+],
+
+"protocol_handlers":[
+{
+"protocol":"web+pwa",
+"url":"https://rcarvalhografica.com.br/?launchedfrom=homescreen&pwaprotocolredirect=%s"
+},
+
+{
+"protocol":"web+matutodelivery",
+"url":"https://rcarvalhografica.com.br/?launchedfrom=homescreen&pwaprotocolredirect=%s"
+}
+]
+}
